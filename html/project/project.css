@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+font-family:'Royal Touch', sans-serif;
+}
+
+header{
+    width: 1440px;
+    height: 65px;
+    background: white;
+}
+
+.bb{
+    border: 1px solid red;
+}
+
+li{
+    display: inline-block;
+}
+.main-menu > ul > li{
+    display: space-between;
+}
+
+
+
+
+
+
+.main-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+header.main-menu > ul > li > a {
+    display: flex;
+    
+   
+}
+.logo{
+    width: 148px;
+    height: 65px;
+}
+.main-menu > ul > li > a{
+    display: flex;
+    margin-right: 170px;
+    margin-top: 20px;
+    color: #000;
+    justify-content: center;
+    text-decoration:none ;
+}
+.block1{
+    background: #343338;
+    width: 1440px;
+    height: 814px;
+    flex-shrink: 0;
+    position: relative;
+    
+}
+.imag{
+    display: flex;
+    width:566px;
+    height:350px;
+    position: relative;
+    left: 30px;
+    top: 200px; 
+}
+.brows{
+    display: flex;
+    width: 689px;
+    height: 180.393px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+}
+.brows{
+    color: #FFF;
+    font-family: 'SeoulNamsan CB';
+    font-size: 257.962px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66%; 
+    opacity: 0.1;
+    filter: blur(2.8849754333496094px);
+    position: relative;
+    left: 370px;
+    bottom: 40px;
+}
+.img{
+    display: flex;
+    width: 690px;
+    height: 813px;
+    position: relative;
+    left: 750px;
+    bottom: 530px;
+}
+.container{
+    width: 1440px;
+    height: 1100px;
+}
+
+ 
+.title{
+    display: flex;
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative; 
+    left: 50px;
+    top: 118px;
+    width: 300px;
+    }
+
+.info{
+    display: flex;
+    width: 584px;
+    height: 620px;
+    color: #000;
+    font-family: 'Roboto' Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position: relative;
+    left: 50px;
+    top: 130px;
+   
+}
+
+.picture{
+    display: flex;
+    width: 596.197px;
+    height: 600px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 5px 7px 18.9px 0px rgba(0, 0, 0, 0.33);
+    position: relative;
+    left: 750px;
+    bottom: 590px;
+    
+}
+
+.cervices{
+    display: flex;
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative; 
+    left: 50px;
+    width: 300px 
+}
+
+.section_content{
+    display: flex;
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.section_h1{
+    display:flex;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section_sutitle{
+    display: flex;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.galery{
+    display: flex;
+    width: 479px;
+    height: 99px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120px; /* 200% */
+    position: relative;
+    left: 50px;
+}
+
+.job{
+    display: flex;
+    display: inline-block;
+    width: 315px;
+    height: 344px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    margin-left: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content:center;
+    width: 282.056px;
+    height: 40.732px;
+    flex-shrink: 0;
+    border-radius: 90.939px;
+    border: 1.44px solid #000;
+    position: relative;
+    top: 100px;
+    color: #000;
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 21.941px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}

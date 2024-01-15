@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.blurred-text-container {
+    font-family: 'Arial', sans-serif; /* Замініть 'Your Chosen Font' на обраний вами шрифт */
+    font-size: 55px;
+    text-align: center;
+
+}
+
+.blurred-letter {
+    filter: blur(2px);
+    transition: filter 0.3s ease-in-out;
+    cursor: pointer;
+   
+}
+
+.blurred-letter:hover {
+    filter: blur(0);
+}
